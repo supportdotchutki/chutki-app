@@ -1,0 +1,23 @@
+{
+  "name": "chutki-app",
+  "version": "1.0.0",
+  "description": "Service Marketplace PWA",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "keywords": [
+    "service-marketplace",
+    "pwa",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT"
+}
